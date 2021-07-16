@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Canela", "sans-serif";
+    src: url(../fonts/Canela.ttc);
+}
+
+body {
+    background-color: #EDDFD9;
+    max-width: 1200px;
+    margin: 16px auto;
+    font-family: "Canela", "sans-serif";
+    color: #2D2D2D;
+}
+
+a {
+    color: #2D2D2D;
+    text-decoration: none;
+    font-family: "Canela", "sans-serif";
+    font-size: 24px;
+}
+
+.topnav {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.melissa-neira {
+    margin-right: auto;
+    font-size: 32px;
+}
+
+.links-container {
+    align-self: flex-end;
+    font-size: 32px;
+}
+
+.navbarlinks {
+    padding-left: 52px;
+}
+
+.about-global {
+    padding-left: 150px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding-top: 72px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.meli-image {
+    width: 342px;
+    height: 412px;
+}
+
+.meli {
+    width: 342px;
+    height: 412px;
+    align-self: flex-start;
+    z-index: 2;
+    position: absolute;
+}
+
+.about-me {
+    z-index: 2;
+    position: relative;
+    font-family: Canela;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    padding-left: 56px;
+    padding-top: 50px;
+    width: 600px;
+    height: 412px;
+    align-self: flex-end;
+}
+
+.dj:hover {
+    text-decoration: underline;
+}
+
+.vector-about {
+    position: absolute;
+    z-index: 1;
+    padding-top: 175px;
+}
+
+footer {
+    margin-top: 0px;
+}
+
+hr {
+    border: 1px solid #2D2D2D;  
+    margin-top: 300px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.f-link {
+    margin-left: 8px;
+    margin-right: auto;
+}
+
+.copywrite {
+    align-self: flex-end;
+    font-family: Canela;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: auto;
+}
+
